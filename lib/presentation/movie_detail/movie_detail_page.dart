@@ -7,14 +7,18 @@ import 'package:flutter_movie_app/presentation/movie_detail/widgets/movie_overvi
 import 'package:flutter_movie_app/presentation/widgets/movie_image.dart';
 
 class MovieDetailPage extends StatelessWidget {
-  const MovieDetailPage({super.key});
+  const MovieDetailPage({super.key, required this.heroTag});
+
+  // HomePage 에서 터치한 영화와 동일한 tag를 사용해야해서
+  // 속성으로 정의 후 생성자를 통해 전달
+  final String heroTag;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
         children: [
-          MovieImage(imgUrl: 'https://picsum.photos/200/300'),
+          MovieImage(imgUrl: 'https://picsum.photos/200/300', heroTag: heroTag),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Column(
