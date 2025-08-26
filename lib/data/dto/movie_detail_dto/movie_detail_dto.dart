@@ -7,7 +7,7 @@ import 'package:flutter_movie_app/data/dto/movie_detail_dto/spoken_language.dart
 class MovieDetailDto {
   final bool adult;
   final String backdropPath;
-  final BelongsToCollection belongsToCollection;
+  final BelongsToCollection? belongsToCollection; // 테스트 진행 중 nullalbe 으로 변경
   final int budget;
   final List<Genre> genres;
   final String homepage;
@@ -64,9 +64,10 @@ class MovieDetailDto {
   factory MovieDetailDto.fromJson(Map<String, dynamic> json) => MovieDetailDto(
     adult: json["adult"],
     backdropPath: json["backdrop_path"],
-    belongsToCollection: BelongsToCollection.fromJson(
-      json["belongs_to_collection"],
-    ),
+    belongsToCollection:
+        json["belongs_to_collection"] == null
+            ? null
+            : BelongsToCollection.fromJson(json["belongs_to_collection"]),
     budget: json["budget"],
     genres: List<Genre>.from(json["genres"].map((x) => Genre.fromJson(x))),
     homepage: json["homepage"],

@@ -1,0 +1,412 @@
+{
+  "dates": {
+    "maximum": "2024-12-11",
+    "minimum": "2024-10-30"
+  },
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/tElnmtQ6yz1PjN1kePNl8yMSb59.jpg",
+      "genre_ids": [
+        16,
+        12,
+        10751,
+        35
+      ],
+      "id": 1241982,
+      "original_language": "en",
+      "original_title": "Moana 2",
+      "overview": "바다를 누볐던 선조들에게서 예기치 못한 부름을 받은 모아나가 마우이와 다시 만나 새로운 선원들과 함께 오랫동안 잊혀진 멀고 위험한 바다 너머로 떠나는 특별한 모험을 담은 이야기",
+      "popularity": 5883.763,
+      "poster_path": "/2WVvPcVRqfjyVzIUVIcszGb6zT4.jpg",
+      "release_date": "2024-11-27",
+      "title": "모아나 2",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 315
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "id": 912649,
+      "original_language": "en",
+      "original_title": "Venom: The Last Dance",
+      "overview": "환상의 케미스트리의 에디 브록과 그의 심비오트 베놈은 그들을 노리는 정체불명 존재의 추격을 피해 같이 도망을 다니게 된다. 한편 베놈의 창조자 널은 고향 행성에서부터 그들을 찾아내기 위해 지구를 침략하고 에디와 베놈은 그동안 겪어보지 못한 최악의 위기를 맞이하게 되는데…",
+      "popularity": 3523.453,
+      "poster_path": "/rajTvnpDKRupZPpKJRxeJMKrIs6.jpg",
+      "release_date": "2024-10-22",
+      "title": "베놈: 라스트 댄스",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 987
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/au3o84ub27qTZiMiEc9UYzN74V3.jpg",
+      "genre_ids": [
+        28,
+        878,
+        53
+      ],
+      "id": 1035048,
+      "original_language": "en",
+      "original_title": "Elevation",
+      "overview": "한 명의 싱글파더와 두 명의 여성이 어린 소년의 생명을 구하기 위해 집이라는 안전한 공간을 떠나 괴물 같은 생명체들과 맞서게 된다.",
+      "popularity": 2204.744,
+      "poster_path": "/uQhYBxOVFU6s9agD49FnGHwJqG5.jpg",
+      "release_date": "2024-11-07",
+      "title": "엘리베이션",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 86
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6lE2e6j8qbtQR8aHxQNJlwxdmKV.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "id": 974453,
+      "original_language": "en",
+      "original_title": "Absolution",
+      "overview": "",
+      "popularity": 1777.824,
+      "poster_path": "/cNtAslrDhk1i3IOZ16vF7df6lMy.jpg",
+      "release_date": "2024-10-31",
+      "title": "앱솔루션",
+      "video": false,
+      "vote_average": 6.044,
+      "vote_count": 102
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/evFChfYeD2LqobEJf8iQsrYcGTw.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "id": 1182387,
+      "original_language": "en",
+      "original_title": "Armor",
+      "overview": "",
+      "popularity": 1686.649,
+      "poster_path": "/pnXLFioDeftqjlCVlRmXvIdMsdP.jpg",
+      "release_date": "2024-10-30",
+      "title": "Armor",
+      "video": false,
+      "vote_average": 5.5,
+      "vote_count": 43
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/h3fwlwHotd3JfV13HdW0mxDcxPD.jpg",
+      "genre_ids": [
+        35,
+        10749,
+        10770
+      ],
+      "id": 957119,
+      "original_language": "en",
+      "original_title": "Sidelined: The QB and Me",
+      "overview": "",
+      "popularity": 1605.297,
+      "poster_path": "/sIWv5HtDlUFvacsuA1fRNWZ5GFH.jpg",
+      "release_date": "2024-11-29",
+      "title": "Sidelined: The QB and Me",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 40
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/euYIwmwkmz95mnXvufEmbL6ovhZ.jpg",
+      "genre_ids": [
+        28,
+        12,
+        36
+      ],
+      "id": 558449,
+      "original_language": "en",
+      "original_title": "Gladiator II",
+      "overview": "로마의 영웅이자 최고의 검투사였던 막시무스가 콜로세움에서 죽음을 맞이한 뒤 20여 년이 흐른 후. 쌍둥이 황제 게타와 카라칼라의 폭압 아래 시민을 위한 자유로운 나라 로마의 꿈은 잊힌 지 오래다. 한편 아카시우스 장군이 이끄는 로마군에 대패한 후 모든 것을 잃고 노예로 전락한 루시우스는 강한 권력욕을 지닌 마크리누스의 눈에 띄어 검투사로 발탁된다. 로마를 향한 걷잡을 수 없는 분노, 타고난 투사의 기질로 콜로세움에 입성하게 된 루시우스는 결투를 거듭하며 자신이 진짜 누구인지 알게 되고 마침내 로마의 운명을 건 결전을 준비하게 되는데...!",
+      "popularity": 1244.766,
+      "poster_path": "/b5UXjzW5cLZhprMnlAmsVAA3G4t.jpg",
+      "release_date": "2024-11-13",
+      "title": "글래디에이터 II",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 923
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mQZJoIhTEkNhCYAqcHrQqhENLdu.jpg",
+      "genre_ids": [
+        16,
+        878,
+        10751
+      ],
+      "id": 1184918,
+      "original_language": "en",
+      "original_title": "The Wild Robot",
+      "overview": "우연한 사고로 거대한 야생에 불시착한 로봇 로즈는 주변 동물들의 행동을 배우며 낯선 환경 속에 적응해 가던 중, 사고로 세상에 홀로 남겨진 아기 기러기 브라이트빌의 보호자가 된다. 로즈는 입력되어 있지 않은 새로운 역할과 관계에 낯선 감정을 마주하고 겨울이 오기 전에 남쪽으로 떠나야 하는 브라이트빌을 위해 동물들의 도움을 받아 이주를 위한 생존 기술을 가르쳐준다. 그러나 선천적으로 몸집이 작은 브라이트빌은 짧은 비행도 힘겨워 하는데...",
+      "popularity": 1190.606,
+      "poster_path": "/8dkuf9IuVh0VZjDTk7kAY67lU0U.jpg",
+      "release_date": "2024-09-12",
+      "title": "와일드 로봇",
+      "video": false,
+      "vote_average": 8.4,
+      "vote_count": 3291
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iR79ciqhtaZ9BE7YFA1HpCHQgX4.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 1100782,
+      "original_language": "en",
+      "original_title": "Smile 2",
+      "overview": "월드투어를 앞두고 자신의 눈 앞에서 기괴한 미소와 함께 끔찍한 죽음을 맞은 친구를 목격한 팝스타 ‘스카이’. 그 날 이후 공연 리허설과 팬 미팅 행사 등 그녀의 삶 곳곳에서 끔찍한 일들이 잇따라 발생한다. 화려한 스타의 삶을 뒤덮은 공포에서 벗어나기 위해 몸부림치던 ‘스카이’는 자신이 죽어야만 전염처럼 번지는 저주가 끝난다는 사실을 듣게 되는데…",
+      "popularity": 1052.521,
+      "poster_path": "/4nQk1OgbtdnKYMEQiOwwMB4yGxn.jpg",
+      "release_date": "2024-10-16",
+      "title": "스마일 2",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 824
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bbNUSVOqgbJ2U5OtEeMC76qlqxH.jpg",
+      "genre_ids": [
+        18,
+        14,
+        10749
+      ],
+      "id": 402431,
+      "original_language": "en",
+      "original_title": "Wicked",
+      "overview": "자신의 진정한 힘을 아직 발견하지 못한 엘파바와 자신의 진정한 본성을 발견하지 못한 글린다, 전혀 다른 두 인물이 우정을 쌓아가며 맞닥뜨리는 예상치 못한 위기와 모험을 그린 이야기",
+      "popularity": 987.814,
+      "poster_path": "/mHozMgx7w29qC9gLzUQDQEP7AEM.jpg",
+      "release_date": "2024-11-20",
+      "title": "위키드",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 398
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/liuBLPXvisMRo5w2JEKHXceWq5u.jpg",
+      "genre_ids": [
+        28,
+        80,
+        18
+      ],
+      "id": 1171640,
+      "original_language": "fr",
+      "original_title": "GTMAX",
+      "overview": "전 모터크로스 챔피언인 여성. 악명 높은 바이커 조직이 남동생을 절도 행각에 끌어들이자, 가족의 안전을 지키기 위해 마음속 깊이 자리한 두려움을 마주하기로 한다.",
+      "popularity": 889.427,
+      "poster_path": "/jrbH7NfYcqmYNh6Nri71Rqga188.jpg",
+      "release_date": "2024-11-19",
+      "title": "티맥스 라이드",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 65
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/18TSJF1WLA4CkymvVUcKDBwUJ9F.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 1034541,
+      "original_language": "en",
+      "original_title": "Terrifier 3",
+      "overview": "\"아트 더 클라운\"이 크리스마스 이브에 평화롭게 잠든 \"마일스 카운티\"의 주민들을 향해 혼돈을 일으키려 한다",
+      "popularity": 875.785,
+      "poster_path": "/63xYQj1BwRFielxsBDXvHIJyXVm.jpg",
+      "release_date": "2024-10-09",
+      "title": "테리파이어 3",
+      "video": false,
+      "vote_average": 6.865,
+      "vote_count": 1178
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/n4ycOGj2tRLfINTJQ3wl0vNYqpR.jpg",
+      "genre_ids": [
+        16,
+        14,
+        10751,
+        12,
+        35
+      ],
+      "id": 592983,
+      "original_language": "en",
+      "original_title": "Spellbound",
+      "overview": "부모님이 강력한 마법의 주문에 걸려 괴물로 변해버리자, 10대 소녀 엘리안 공주는 더 늦기 전에 저주를 풀고자 바깥세상으로 모험을 떠난다.",
+      "popularity": 638.38,
+      "poster_path": "/2s3ilM1Oe28zOnxvUCTqVyO8jYZ.jpg",
+      "release_date": "2024-11-22",
+      "title": "엘리안과 빛나는 마법 모험",
+      "video": false,
+      "vote_average": 6.778,
+      "vote_count": 126
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7h6TqPB3ESmjuVbxCxAeB1c9OB1.jpg",
+      "genre_ids": [
+        27,
+        878,
+        53
+      ],
+      "id": 933260,
+      "original_language": "en",
+      "original_title": "The Substance",
+      "overview": "더 나은 버전의 당신을 꿈꿔본 적 있나요? 당신의 인생을 바꿔줄 신제품 ‘서브스턴스’. ‘서브스턴스’는 또 다른 당신을 만들어냅니다. 새롭고, 젊고, 더 아름답고, 더 완벽한 당신을. 단 한가지 규칙, 당신의 시간을 공유하면 됩니다. 당신을 위한 일주일, 새로운 당신을 위한 일주일, 각각 7일간의 완벽한 밸런스. 쉽죠? 균형을 존중한다면… 무엇이 잘못될 수 있을까요?",
+      "popularity": 781.502,
+      "poster_path": "/pq5Wh3DE0KIBjF2kdGHn98eV1PC.jpg",
+      "release_date": "2024-09-07",
+      "title": "서브스턴스",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 2369
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+      "genre_ids": [
+        28,
+        35,
+        14
+      ],
+      "id": 845781,
+      "original_language": "en",
+      "original_title": "Red One",
+      "overview": "크리스마스 D-1, 철통같은 보안을 뚫고 코드명 '레드 원' 산타클로스가 납치되고 크리스마스가 사라질 위기에 처했다! '레드 원'을 찾기 위해 사령관 '칼럼 드리프트'는 산타클로스 따위는 없다고 믿는 현상금 사냥꾼 '잭 오말리'와 협력하기로 한다. 시작부터 삐그덕 거리는 이들 앞에 크리스마스의 존재를 위협하는 위험천만한 적들이 나타나는데…",
+      "popularity": 743.214,
+      "poster_path": "/ryYEpxWiZFmJJZUyvQCBvM5UOCU.jpg",
+      "release_date": "2024-10-31",
+      "title": "레드 원",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 208
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kwXycPsLA6SV3KUOagn343TtMOf.jpg",
+      "genre_ids": [
+        28,
+        878,
+        53
+      ],
+      "id": 791042,
+      "original_language": "en",
+      "original_title": "Levels",
+      "overview": "",
+      "popularity": 656.433,
+      "poster_path": "/y1xm0jMIlx9Oo2a3jWNyLGm43sJ.jpg",
+      "release_date": "2024-11-01",
+      "title": "레벨스",
+      "video": false,
+      "vote_average": 5.7,
+      "vote_count": 36
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fSSCsemHjUJzLrr3Trp72Oa5Dj0.jpg",
+      "genre_ids": [
+        16,
+        9648,
+        878,
+        28
+      ],
+      "id": 1299652,
+      "original_language": "en",
+      "original_title": "Watchmen: Chapter II",
+      "overview": "",
+      "popularity": 924.906,
+      "poster_path": "/4rBObJFpiWJOG7aIlRrOUniAkBs.jpg",
+      "release_date": "2024-11-25",
+      "title": "왓치맨: 챕터 2",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 19
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/djo5TTvyWK2b28QLi0FfMXu5nU3.jpg",
+      "genre_ids": [
+        35,
+        14,
+        27
+      ],
+      "id": 1097870,
+      "original_language": "en",
+      "original_title": "Dear Santa",
+      "overview": "호감 가는 6학년생 리암은 산타에게 자신이 진짜라는 것을 증명해달라는 편지를 쓴다. 하지만 리암은 난독증이 있어 실수로 그 편지를 사탄에게 보내고 만다. 그러자 사탄은 처음으로 받은 팬레터에 신이 나서 리암의 집에 나타나며 그의 영혼 일부를 원한다고 말한다.",
+      "popularity": 519.984,
+      "poster_path": "/fRbDHbGBXg6kwQYr3CRYeKPJW5q.jpg",
+      "release_date": "2024-11-24",
+      "title": "디어 산타",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 72
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/a5OqX7uXb8MI0WB3HbCyA0Wn3gI.jpg",
+      "genre_ids": [
+        10749,
+        35,
+        18
+      ],
+      "id": 1234811,
+      "original_language": "en",
+      "original_title": "Our Little Secret",
+      "overview": "서로를 원망하며 헤어진 커플. 각자 새로 사귄 연인이 하필이면 남매 사이라는 것을 알게 된 후, 어쩔 수 없이 한 지붕 아래에서 크리스마스를 보내게 된다. 둘의 로맨틱한 과거는 비밀로 한 채.",
+      "popularity": 482.098,
+      "poster_path": "/TvbS5GQJcWuCJJMcrKVkGfOTod.jpg",
+      "release_date": "2024-11-27",
+      "title": "우리만의 작은 비밀",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 177
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 1252309,
+      "original_language": "es",
+      "original_title": "Pídeme lo que quieras",
+      "overview": "",
+      "popularity": 623.956,
+      "poster_path": "/76qnVxU2rPdVvipBN3DPQH6fVYB.jpg",
+      "release_date": "2024-11-29",
+      "title": "Pídeme lo que quieras",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 2
+    }
+  ],
+  "total_pages": 262,
+  "total_results": 5233
+}

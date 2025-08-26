@@ -1,6 +1,6 @@
 class ProductionCompany {
   final int id;
-  final String logoPath;
+  final String? logoPath; // 테스트 진행 중 nullalbe 으로 변경
   final String name;
   final String originCountry;
 
