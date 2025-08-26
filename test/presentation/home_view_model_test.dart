@@ -63,7 +63,7 @@ void main() {
     );
     when(
       () =>
-          providerContainer!.read(fetchPopularMoviesUsecaseProvider).execute(),
+          providerContainer!.read(fetchPopularMoviesUsecaseProvider).execute(1),
     ).thenAnswer(
       (_) async => [Movie(id: 2, posterPath: 'http://test.com/image2.jpg')],
     );

@@ -39,11 +39,11 @@ void main() {
     }
   });
   test('MovieRepositoryImpl : fetchPopularMovies test', () async {
-    when(() => mockMovieDataSource!.fetchPopularMovies()).thenAnswer(
+    when(() => mockMovieDataSource!.fetchPopularMovies(1)).thenAnswer(
       (_) async => MovieResponseDto.fromJson(jsonDecode(helper!.popularSample)),
     );
 
-    final movies = await movieRepositoryImpl!.fetchPopularMovies();
+    final movies = await movieRepositoryImpl!.fetchPopularMovies(1);
     expect(movies, isNotNull);
     expect(movies!.length, 20);
     for (var movie in movies) {

@@ -32,9 +32,12 @@ class HomeViewModel extends Notifier<HomeState> {
   }
 
   Future<void> fetchAll() async {
+    _popularPage = 1;
     final nowPlaying =
         await ref.read(fetchNowPlayingMoviesUsecaseProvider).execute();
-    final popular = await ref.read(fetchPopularMoviesUsecaseProvider).execute();
+    final popular = await ref
+        .read(fetchPopularMoviesUsecaseProvider)
+        .execute(_popularPage);
     final topRated =
         await ref.read(fetchTopRatedMoviesUsecaseProvider).execute();
     final upcoming =
@@ -47,6 +50,34 @@ class HomeViewModel extends Notifier<HomeState> {
       topRatedMovies: topRated,
       upcomingMovies: upcoming,
     );
+  }
+
+  /// 로딩중일 때 재 호출 방지용
+  bool _isFetchingPopular = false;
+  int _popularPage = 1;
+
+  Future<void> fetchMorePopularMovies() async {
+    if (_isFetchingPopular) {
+      return;
+    }
+    _isFetchingPopular = true;
+    _popularPage++;
+
+    final result =
+        await ref
+            .read(fetchPopularMoviesUsecaseProvider)
+            .execute(_popularPage) ??
+        [];
+
+    state = HomeState(
+      mostPopular: state.mostPopular,
+      nowPlayingMovies: state.nowPlayingMovies,
+      popularMovies: [...state.popularMovies!, ...result],
+      topRatedMovies: state.topRatedMovies,
+      upcomingMovies: state.upcomingMovies,
+    );
+
+    _isFetchingPopular = false;
   }
 }
 

@@ -5,7 +5,7 @@ class FetchPopularMoviesUsecase {
   FetchPopularMoviesUsecase(this._movieRepository);
   final MovieRepository _movieRepository;
 
-  Future<List<Movie>?> execute() async {
-    return await _movieRepository.fetchPopularMovies();
+  Future<List<Movie>?> execute(int page) async {
+    return await _movieRepository.fetchPopularMovies(page);
   }
 }

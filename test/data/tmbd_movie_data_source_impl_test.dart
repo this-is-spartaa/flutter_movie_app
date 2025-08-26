@@ -51,7 +51,7 @@ void main() {
       ),
     );
 
-    final responseDto = await tmbdMovieDataSourceImpl!.fetchPopularMovies();
+    final responseDto = await tmbdMovieDataSourceImpl!.fetchPopularMovies(1);
     expect(responseDto, isNotNull);
     expect(responseDto!.results.length, 20);
   });
