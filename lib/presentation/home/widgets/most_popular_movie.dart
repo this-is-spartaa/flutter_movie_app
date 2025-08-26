@@ -21,7 +21,12 @@ class MostPopularMovie extends ConsumerWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => MovieDetailPage(heroTag: heroTag),
+            builder:
+                (context) => MovieDetailPage(
+                  heroTag: heroTag,
+                  posterPath: movie.posterPath,
+                  id: movie.id,
+                ),
           ),
         );
       },

@@ -33,7 +33,11 @@ class PopularListView extends ConsumerWidget {
                         context,
                         MaterialPageRoute(
                           builder:
-                              (context) => MovieDetailPage(heroTag: heroTag),
+                              (context) => MovieDetailPage(
+                                heroTag: heroTag,
+                                posterPath: movie.posterPath,
+                                id: movie.id,
+                              ),
                         ),
                       );
                     },
