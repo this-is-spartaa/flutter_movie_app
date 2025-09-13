@@ -1,4 +1,4 @@
-import 'package:flutter_movie_app/data/dto/movie_response_dto.dart/movie_result.dart';
+import 'package:flutter_movie_app/movie_response_dto.dart/movie_result.dart';
 
 class MovieResponseDto {
   final int page;
