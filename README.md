@@ -1,16 +1,118 @@
-# flutter_movie_app
+## 클린아키텍처
 
-A new Flutter project.
+- https://docs.flutter.dev/app-architecture/guide
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 객체지향의 SOLID 원칙
+- 객체지향 설계할 때 이상적인 원칙
+- 밥삼촌 의견
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# S
+- 단일 책임 원칙 (Single Responsibility Principle)
+- 클래스는 하나의 책임만 가져야 한다.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+# O
+- 개방-폐쇄 원칙 (Open/Closed Principle)
+- 확장에는 열려 있고, 수정에는 닫혀야 한다.
+
+---
+
+# L
+- 리스코프 치환 원칙 (Liskov Substitution Principle)
+- 부모 타입 자리에 자식 타입을 넣어도 동작해야 한다.
+
+---
+
+# I
+- 인터페이스 분리 원칙 (Interface Segregation Principle)
+- 사용하지 않는 메서드에 의존하지 않도록 인터페이스 분리
+
+---
+
+# D
+- 의존성 역전 원칙 (Dependency Inversion Principle)
+- 고수준 모듈은 저수준 모듈이 아니라 추상화에 의존해야 한다.
+
+---
+
+### 영화정보앱 구현하기 1
+
+- 영화정보 가져와서 화면에 보여준다
+
+---
+
+### 영화정보앱 구현하기 2
+
+- [영화정보 가져오기 기능]
+- [영화정보 보여주는 화면]
+
+---
+
+### 영화정보앱 구현하기 3
+
+- [영화정보 가져오기 기능]
+- [영화정보 담을 변수]
+- [영화정보 보여주는 화면]
+
+---
+
+## S에 집중해봅시다
+- 단일 책임 원칙 (Single Responsibility Principle)
+- 클래스는 하나의 책임만 가져야 한다.
+
+---
+
+
+### 영화정보앱 구현하기 4
+
+- [영화정보 가져오기 기능]
+    - TMDB API에서 영화 목록을 가져와 그대로 객체로 변환
+    - 앱에서 필요한 정보만 추려 새로운 객체로 변환
+- [영화정보 담을 변수]
+- [영화정보 보여주는 화면]
+
+---
+
+### 영화정보앱 구현하기 5
+
+- [영화정보 가져오기 기능]
+    - TMDB 데이터 담을 클래스
+    - TMDB 영화목록 가져오기
+    - 앱에서 필요한 정보만 가지고 있는 클래스
+    - 앱 객체로 변환
+- [영화정보 담을 변수]
+- [영화정보 보여주는 화면]
+
+
+---
+
+### 영화정보앱 구현하기 6
+
+- [영화정보 가져오기 기능] => UseCase
+    - TMDB 데이터 담을 클래스 => DTO (fromJson 포함)
+    - TMDB 영화목록 가져오기 => DataSource (http 호출)
+    - 앱에서 필요한 정보만 가지고 있는 클래스 => Entity
+    - 앱 객체로 변환 => Repository
+
+- [영화정보 담을 변수] => ViewModel
+- [영화정보 보여주는 화면] => View (Widget)
+
+---
+
+### 클린아키텍처 동심원에 넣어보기
+
+---
+
+### 의존성 방향
+- 하나 수정했을 때 어디가 수정되어야 할까요?
+
+---
+
+# D가 필요해요
+- 의존성 역전 원칙 (Dependency Inversion Principle)
+- 고수준 모듈은 저수준 모듈이 아니라 추상화에 의존해야 한다.
