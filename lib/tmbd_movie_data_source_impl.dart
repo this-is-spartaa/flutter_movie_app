@@ -1,7 +1,8 @@
 import 'package:dio/dio.dart';
+import 'package:flutter_movie_app/movie_data_source.dart';
 import 'package:flutter_movie_app/movie_response_dto.dart/movie_response_dto.dart';
 
-class TmbdMovieDataSourceImpl {
+class TmbdMovieDataSourceImpl implements MovieDataSource {
   TmbdMovieDataSourceImpl(this._dioClient);
 
   final Dio _dioClient;
@@ -10,6 +11,7 @@ class TmbdMovieDataSourceImpl {
   };
 
   /// https://api.themoviedb.org/3/movie/now_playing?language=ko-KR&page=1
+  @override
   Future<MovieResponseDto?> fetchNowPlayingMovies() async {
     final response = await _dioClient.get(
       'https://api.themoviedb.org/3/movie/now_playing?language=ko-KR&page=1',
